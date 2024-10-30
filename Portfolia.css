@@ -1,0 +1,248 @@
+@font-face{
+      font-family:myfont2;
+            src: url(RomanAntique.ttf);
+            font-family:myfont1;
+            src: url(Weslingtone.ttf);
+            font-family:myfont3;
+            src: url( JumpingChick.ttf);
+}
+
+ 
+img{
+    float: right;
+    width: 400px;
+    border-radius: 44px;
+    margin-top: 100px ;
+    margin-right: 100px;
+}
+
+h1{
+    font-size: 30px;
+   font-family: myfont1;
+   color: coral;
+   text-align: left;
+   padding-top: 210px;
+   margin-left: 335px;
+   margin-bottom: 0px;
+
+}
+h2{
+    font-size: 70px;
+    font-family: myfont2;
+    color: orange;
+    text-align: initial;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    line-height: 70px;
+
+}
+
+h3{
+
+    font-size: 30px;
+    font-family: myfont3;
+    color: coral;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 332px;
+    margin-bottom: 500px;
+
+
+
+}
+.banner {
+    position: relative; /* Allow absolute positioning of children */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    
+    display: flex; /* Allows for centering content within the banner */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+   margin-top: 0px ;
+    text-align: center; /* Centers text */
+    padding: 0px; /* Adds some padding around the content */
+   
+}
+
+.videobg {
+    position: fixed; /* Keeps the video fixed in place */
+    width: 100%; /* Ensure it covers full width */
+    height: 100%; /* Ensure it covers full height */
+    z-index: -1; /* Place the video behind other content */
+    object-fit: cover; /* Ensures the video covers the area */
+    cursor: wait; /* Changes the cursor to wait during video load */
+    top: 0px;
+}
+
+.banner:hover{
+    cursor: pointer;
+}
+nav{
+    position:sticky;
+    top: 0px;
+}
+
+
+.logo ul{
+    list-style-type: none;
+   transform: scale(1.1);
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.logo a{
+    color: brown;
+    font-size: 39px;
+    background-color:aliceblue;
+    background-blend-mode: lighten;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+.logo a:hover{
+    color: aquamarine;
+    cursor:cell;
+    ;
+}
+
+
+html{
+    scroll-behavior: smooth;  
+}
+section{
+    font-size: 30px;
+    color: coral;
+    padding-top: 10px;
+    margin-top: 180px;
+    font-weight: 500;
+
+
+
+}
+
+#About{
+        
+       line-height: 55px;
+        margin-top: 415px;
+       
+        
+        
+
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+   border-color: rgb(33, 201, 145);
+    border: 5px solid;
+    margin: 0px;
+    background-color: azure ;
+
+}
+
+#box1{
+   text-align: center;
+    width: 100px;
+    line-height: 130px;
+    font-size: larger;
+    padding-left: 20px;
+
+}
+
+.fa-python{
+   float: left;
+    color: aqua;
+    font-size: 40px;
+    margin-top: 140px;
+
+
+
+}
+
+
+
+
+
+
+#box2{
+    margin-top: 00px;
+    padding-top : 50px;
+   padding-left: 30px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    margin-bottom:100px;
+    width: 80px;
+    line-height: 130px;
+   
+    font-size: larger; 
+    float: left;
+   
+
+}
+
+
+
+#box3{
+   
+    line-height: 130px;
+   border: 5px solid;
+   border-color: aqua;
+   font-size: larger;
+  
+    
+
+
+}
+
+.p1{
+    margin-top: 80px;
+    text-align: center;
+    word-spacing: 230px;
+    line-height: 100px;
+    text-decoration: dotted;
+    font-size: 40px;
+    font-style: bolder;
+}
+.p2{ 
+    text-align: center;
+    word-spacing: 350PX;
+    line-height: 100px;
+    text-decoration: dotted;
+    font-size: 40px;
+    font-style: bolder;}
+/*
+
+/*#skills p:nth-of-type(1){
+   margin-top: 90px;
+   text-align: left;
+   margin-left: 160px;
+}
+#skills p:nth-of-type(2){
+    margin-left: 160px;
+    margin-bottom: 0px;
+ }
+ #skills p:nth-of-type(3){
+    margin-top: 11111111111110px;
+   text-align: center;
+    margin-right: 160px;
+    
+ }
+ #skills p:nth-of-type(3){
+    margin-top: 220px;
+ }
+ #skills p:nth-of-type(3){
+    margin-top: 220px;
+ }
+ #skills p:nth-of-type(3){
+    margin-top: 220px;
+ }
+ #skills p:nth-of-type(3){
+    margin-top: 220px;
+ }
+/*
+
